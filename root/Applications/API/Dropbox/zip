@@ -1,0 +1,3 @@
+curl -X POST https://content.dropboxapi.com/2/files/download_zip \
+    --header "Authorization: Bearer Ytq_8VepB-AAAAAAAABZ8mT4tOrYAfYXOu3XZp3dl7rPA-1FTwk1Y0xx9VPlWQid"
+    --header "Dropbox-API-Arg: {\"path\": \"/Homework/math\"}"
