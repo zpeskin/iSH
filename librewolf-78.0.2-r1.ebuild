@@ -3,10 +3,8 @@
 
 EAPI=7
 
-MY_PN="${PN%%-*}"
-MY_PV="${PV//_beta/b}"
-MY_P="${MY_PN}-${MY_PV}"
 COMMIT="c4baf7d8777e5bd59be893e41a0e0282"
+
 inherit desktop multilib xdg-utils
 
 DESCRIPTION="Librewolf Web Browser"
